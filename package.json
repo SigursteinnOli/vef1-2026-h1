@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
+"scripts": {
+  "sass": "sass styles/styles.scss styles.css",
+  "sass:watch": "sass --watch styles/styles.scss styles.css",
+  "lint": "stylelint \"**/*.scss\""
+},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SigursteinnOli/vef1-2026-h1.git"
