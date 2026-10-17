@@ -1,3 +1,64 @@
-body {
-  background-color: lightblue;
+
+:root {
+  // Aðallitir
+  --color-primary: #7f56d9;
+  --color-white: #fff;
+  --color-black: #000;
+
+  // Texti
+  --color-text: #404040;
+  --color-text-muted: #a3a3a3;
+
+  // Bakgrunnur
+  --color-background: #fff;
+  --color-background-secondary: #fafafa;
+
+  // Rammar og línur
+  --color-border: #e5e5e5;
+
+  
+  // Spacing
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-24: 6rem;
+
+  
+  // Container stærðir
+  --container-sm: 40rem;
+  --container-md: 48rem;
+  --container-lg: 64rem;
+  --container-xl: 80rem;
+
+
+  // Leturgerð
+  --font-family-base: "Inter", sans-serif;
+
+  // Leturþykktir
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  // Leturstærðir
+  --font-size-base: 1rem;
+  --font-size-small: 0.875rem;
+  --font-size-large: 1.25rem;
+
+  // Display stærðir
+  --font-size-display-md: 2.25rem;
+  --font-size-display-lg: 3rem;
+  --font-size-display-xl: 3.75rem;
+  --font-size-display-2xl: 4.5rem;
+
+  // Línuhæð
+  --line-height-base: 1.5;
+  --line-height-heading: 1.2;
+
+
 }
