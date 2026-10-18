@@ -9,8 +9,9 @@
   <body>
     <header class="container">
       <a class="logo" href="index.html">
-        <img src="myndir/Logo.svg"/>
-        Forritið </a>
+        <img src="myndir/Logo.svg" />
+        Forritið
+      </a>
       <nav>
         <a href="index.html">Forsíða</a>
         <a href="sidur/teymissida.html">Teymið</a>
@@ -23,28 +24,38 @@
     </header>
 
     <main id="main">
-      <section class="hero">
-        <h1>Forritið hjálpar þér við daglegt líf</h1>
-        <p>
-          Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu daglega
-          lífi. Yfir 10.000 notendur um allan heim.
-        </p>
+      <section class="hero container">
+        <div class="hero-content">
+          <h1>Forritið hjálpar þér við daglegt líf</h1>
+          <p>
+            Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu
+            daglega lífi. Yfir 10.000 notendur um allan heim.
+          </p>
 
-        <a href="sidur/innskraning.html" class="button"
-          >Skráðu þig í Forritið</a
-        >
-
-        <img src="myndir/" alt="Skjáskot af stjórnborði Forritsins" />
+          <a href="sidur/innskraning.html" class="button"
+            >Skráðu þig í Forritið</a
+          >
+        </div>
+        <div class="hero-image">
+          <img
+            src="myndir/MacbookForritDisplay.png"
+            alt="Skjáskot af stjórnborði Forritsins"
+          />
+        </div>
       </section>
 
-      <section class="features">
-        <h2>Forrit sem virkar eins og það sé úr framtíðinni</h2>
-        <p>
-          Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu daglega
-          lífi. Yfir 10.000 notendur um allan heim.
-        </p>
+      <section class="features container">
+        <div class="features-header">
+          <p class="virkni">Virkni</p>
+          <h2>Forrit sem virkar eins og það sé úr framtíðinni</h2>
+          <p>
+            Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu
+            daglega lífi. Yfir 10.000 notendur um allan heim.
+          </p>
+        </div>
         <ul class="feature-list">
           <li class="feature-card">
+            <img src="myndir/FeatureMail.png" />
             <h3>Öll skilaboð á einum stað</h3>
             <p>
               Aliquam ultrices nibh eget ipsum vestibulum, sit amet placerat
@@ -52,6 +63,7 @@
             </p>
           </li>
           <li class="feature-card">
+            <img src="myndir/Featured lightning.png" />
             <h3>Svarar öllum þínum spurningum</h3>
             <p>
               Aliquam ultrices nibh eget ipsum vestibulum, sit amet placerat
@@ -59,6 +71,7 @@
             </p>
           </li>
           <li class="feature-card">
+            <img src="myndir/Featured stats.png" />
             <h3>Sér um verkefnalista</h3>
             <p>
               Aliquam ultrices nibh eget ipsum vestibulum, sit amet placerat
@@ -67,6 +80,7 @@
           </li>
 
           <li class="feature-card">
+            <img src="myndir/Featured smiley.png" />
             <h3>Sér um samskipti</h3>
             <p>
               Aliquam ultrices nibh eget ipsum vestibulum, sit amet placerat
@@ -75,6 +89,7 @@
           </li>
 
           <li class="feature-card">
+            <img src="myndir/Featured circles.png" />
             <h3>Tengist öðrum tólum</h3>
             <p>
               Aliquam ultrices nibh eget ipsum vestibulum, sit amet placerat
@@ -83,6 +98,7 @@
           </li>
 
           <li class="feature-card">
+            <img src="myndir/Featured text.png" />
             <h3>Kröftugt teymi aðstoðar þig</h3>
             <p>
               Aliquam ultrices nibh eget ipsum vestibulum, sit amet placerat
@@ -92,53 +108,70 @@
         </ul>
       </section>
       <section class="quote">
-        <img class="companyLogo" src="myndir/" alt="Sisyphus" />
-        <h2>
-          Við höfum gjörbreytt fyrirtækinu okkar með því að byrja að nota
-          Forritið.
-        </h2>
-        <img src="myndir/" alt="Mynd af jónu jóns" />
-        <p>Jóna Jóns</p>
-        <p>Framkvæmdastjóri, Sisyphus</p>
+        <div class="container quote-content">
+          <img
+            class="companyLogo"
+            src="myndir/SisypgusLogo.png"
+            alt="Sisyphus"
+          />
+          <h2>
+            Við höfum gjörbreytt fyrirtækinu okkar með því að byrja að nota
+            Forritið.
+          </h2>
+          <div class="quote-author">
+            <img src="myndir/JonaJons.png" alt="Mynd af jónu jóns" />
+            <p>Jóna Jóns</p>
+            <p>Framkvæmdastjóri, Sisyphus</p>
+          </div>
+        </div>
       </section>
 
       <section class="business-features">
         <div class="container">
-          <h2>Virkni fyrir fyrirtæki af öllum stærðum</h2>
+          <div class="features-header">
+            <p class="virkni">Virkni fyrir fyrirtæki</p>
+            <h2>Virkni fyrir fyrirtæki af öllum stærðum</h2>
 
-          <p>
-            Etiam mattis elementum ex quis elementum. Sed at ipsum velit turpis
-            ultrices fringilla quis fermentum dolor.
-          </p>
-
-          <img src="myndir/" alt="Forritið sýnt á tölvu og farsíma" />
+            <p>
+              Etiam mattis elementum ex quis elementum. Sed at ipsum velit
+              turpis ultrices fringilla quis fermentum dolor.
+            </p>
+          </div>
+          <img
+            class="business-image"
+            src="myndir/PhoneAndDesktop.png"
+            alt="Forritið sýnt á tölvu og farsíma"
+          />
 
           <ul class="feature-list">
             <li class="feature-card">
+              <img src="myndir/FeatureMail.png" />
               <h3>Allt teymið á sama stað</h3>
               <p>
                 Etiam mattis elementum ex quis elementum. Sed at ipsum velit
                 turpis ultrices fringilla quis fermentum dolor.
               </p>
-              <a href="">Læra meira</a>
+              <a href="">Læra meira →</a>
             </li>
 
             <li class="feature-card">
+              <img src="myndir/Featured lightning.png" />
               <h3>Svör, strax</h3>
               <p>
                 Etiam mattis elementum ex quis elementum. Sed at ipsum velit
                 turpis ultrices fringilla quis fermentum dolor.
               </p>
-              <a href="">Læra meira</a>
+              <a href="">Læra meira →</a>
             </li>
 
             <li class="feature-card">
+              <img src="myndir/Featured stats.png" />
               <h3>Skýrslur fyrir allt</h3>
               <p>
                 Etiam mattis elementum ex quis elementum. Sed at ipsum velit
                 turpis ultrices fringilla quis fermentum dolor.
               </p>
-              <a href="">Læra meira</a>
+              <a href="">Læra meira →</a>
             </li>
           </ul>
         </div>
@@ -148,7 +181,7 @@
         <h2>Prófaðu í dag</h2>
         <p>Vertu með í framtíðinni, notaðu Forritið.</p>
         <div class="cta-buttons">
-          <a href="" class="button">Læra meira</a>
+          <a href="" class="button button-secondary">Læra meira</a>
           <a href="sidur/innskraning.html" class="button">Skráðu þig</a>
         </div>
       </section>
@@ -156,7 +189,6 @@
 
     <footer class="container">
       <div class="footer-links">
-
         <div class="footer-column">
           <h2>Forritið</h2>
           <a href="">Yfirlit</a>
@@ -178,8 +210,9 @@
 
       <div class="footer-bottom">
         <a class="logo" href="index.html">
-        <img src="myndir/Logo.svg"/>
-        Forritið </a>
+          <img src="myndir/Logo.svg" />
+          Forritið
+        </a>
 
         <p>&copy; 2099 Forritið.</p>
       </div>
