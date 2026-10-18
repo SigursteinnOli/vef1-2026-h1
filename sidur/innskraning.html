@@ -1,19 +1,19 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="is">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forsíða</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header class="container">
       <a class="logo" href="../index.html">
-        <img src="../myndir/Logo.svg"/>
-        Forritið </a>
+        <img src="../myndir/Logo.svg" />
+        Forritið
+      </a>
       <nav>
-        <a href="index.html">Forsíða</a>
+        <a href="../index.html">Forsíða</a>
         <a href="../sidur/teymissida.html">Teymið</a>
         <a href="">Forritið</a>
       </nav>
@@ -23,13 +23,66 @@
       </div>
     </header>
 
-    <main>
-      <p>Velkomin á vefsíðuna!</p>
+    <main class="login">
+      <div class="login-content">
+        <div class="login-header">
+          <img src="../myndir/Logo.svg" alt="Forritið logo" />
+
+          <h1>Skráðu þig inn</h1>
+          <p>Velkomin aftur í Forritið.</p>
+        </div>
+
+        <form class="login-form">
+          <div class="form-field">
+            <label for="username">Notandanafn</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Skráðu notandanafn þitt"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="password">Lykilorð</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="********"
+              required
+            />
+          </div>
+
+          <div class="login-options">
+            <label>
+              <input type="checkbox" name="remember" />
+              Mundu eftir mér í 30 daga
+            </label>
+
+            <a href="">Gleymt lykilorð</a>
+          </div>
+
+          <div class="login-actions">
+            <button type="submit" class="button">Innskráning</button>
+
+            <button type="button" class="button button-secondary">
+              <img src="../myndir/go" alt="" />
+              Innskráning með Google
+            </button>
+          </div>
+        </form>
+
+        <p class="login-signup">
+          Ekki með aðgang?
+          <a href="#">Skráðu þig</a>
+        </p>
+      </div>
     </main>
 
     <footer class="container">
       <div class="footer-links">
-
         <div class="footer-column">
           <h2>Forritið</h2>
           <a href="">Yfirlit</a>
@@ -51,8 +104,9 @@
 
       <div class="footer-bottom">
         <a class="logo" href="../index.html">
-        <img src="../myndir/Logo.svg"/>
-        Forritið </a>
+          <img src="../myndir/Logo.svg" />
+          Forritið
+        </a>
 
         <p>&copy; 2099 Forritið.</p>
       </div>
