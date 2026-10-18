@@ -21,17 +21,7 @@ header nav {
   gap: var(--spacing-6);
 }
 
-header .logo {
-  font-weight: var(--font-weight-semibold);
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-2);
 
-  img {
-    width: 32px;
-    height: auto;
-  }
-}
 
 header a {
   color: var(--color-text);

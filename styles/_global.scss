@@ -43,3 +43,17 @@ img {
     text-decoration: none;
 
 }
+
+.logo {
+  font-weight: var(--font-weight-semibold);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  color: var(--color-text);
+  text-decoration: none;
+
+  img {
+    width: 32px;
+    height: auto;
+  }
+}
