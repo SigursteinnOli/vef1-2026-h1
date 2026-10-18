@@ -16,6 +16,26 @@
   // Rammar og línur
   --color-border: #e5e5e5;
 
+  
+  // Spacing
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-24: 6rem;
+
+  
+  // Container stærðir
+  --container-sm: 40rem;
+  --container-md: 48rem;
+  --container-lg: 64rem;
+  --container-xl: 80rem;
+
+
   // Leturgerð
   --font-family-base: "Inter", sans-serif;
 
@@ -40,20 +60,4 @@
   --line-height-base: 1.5;
   --line-height-heading: 1.2;
 
-  // Spacing
-  --spacing-1: 0.25rem;
-  --spacing-2: 0.5rem;
-  --spacing-3: 0.75rem;
-  --spacing-4: 1rem;
-  --spacing-6: 1.5rem;
-  --spacing-8: 2rem;
-  --spacing-12: 3rem;
-  --spacing-16: 4rem;
-  --spacing-24: 6rem;
-
-  // Container stærðir
-  --container-sm: 40rem;
-  --container-md: 48rem;
-  --container-lg: 64rem;
-  --container-xl: 80rem;
 }
